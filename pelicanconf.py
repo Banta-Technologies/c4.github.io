@@ -4,7 +4,7 @@ SITEURL = ""
 
 PATH = "content"
 
-THEME ="bricks"
+THEME ="Flex"
 
 TIMEZONE = 'US/Central'
 

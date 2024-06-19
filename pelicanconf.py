@@ -1,6 +1,6 @@
-AUTHOR = 'banta technologies'
+AUTHOR = ''
 SITENAME = 'C4 Giving'
-SITEURL = ""
+SITEURL = "https://c4.giving/"
 
 PATH = "content"
 
@@ -19,10 +19,9 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
+    ("Our Mission", "https://https://c4.giving/"),
+    ("About", "https://c4.giving/"),
+    ("Resources", "https://c4.giving/"),
 )
 
 # Social widget

@@ -4,6 +4,8 @@ SITEURL = ""
 
 PATH = "content"
 
+THEME ="bricks"
+
 TIMEZONE = 'US/Central'
 
 DEFAULT_LANG = 'en'

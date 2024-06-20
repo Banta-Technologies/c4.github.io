@@ -1,6 +1,6 @@
 AUTHOR = ''
 SITENAME = 'C4 Giving'
-SITEURL = "https://c4.giving/"
+SITEURL = "https://c4.giving"
 
 PATH = "content"
 

@@ -19,9 +19,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Our Mission", "https://https://c4.giving/"),
-    ("About", "https://c4.giving/"),
-    ("Resources", "https://c4.giving/"),
+
 )
 
 # Social widget

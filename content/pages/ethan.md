@@ -1,11 +1,13 @@
-
-
+---
+title: Ethan
+---
+<!--- 
 Title: Ethan's Page
 Author: Ethan
 Date: 2024-06-23
 Summary: This is Ethan's personal page, showcasing his projects, blog posts, and contact information.
 Tags: introduction, portfolio
-Category: General
+Category: General --->
 
 
 # Welcome to Ethan's Page

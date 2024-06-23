@@ -1,5 +1,6 @@
 ---
 title: Ethan
+status: hidden
 ---
 <!--- 
 Title: Ethan's Page

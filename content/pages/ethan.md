@@ -12,9 +12,6 @@ Category: General
 Status: hidden
 --->
 
-
-# Welcome to Ethan's Page
-
 ## About Me
 
 ## Board Member

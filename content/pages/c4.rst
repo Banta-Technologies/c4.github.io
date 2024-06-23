@@ -1,2 +1,10 @@
 Computer Commodity Community Coaching
-##############
+#####################################
+
+:date: 2024-06-23 16:20
+:modified: 2024-06-23 16:20
+:tags: About
+:category: Coaching
+:slug: 
+:authors: C4
+:summary: Abreviation 

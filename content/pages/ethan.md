@@ -8,7 +8,6 @@ Tags: introduction, portfolio
 Category: General
 
 
-
 # Welcome to Ethan's Page
 
 ## About Me

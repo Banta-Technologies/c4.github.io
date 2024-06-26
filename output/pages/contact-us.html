@@ -114,6 +114,15 @@
   </header>
   <div>
 
+
+
+    <script>
+        function onSubmit(token) {
+          document.getElementById("c4giving").submit();
+        }
+      </script>
+
+
     <form action="?" method="POST">
       <label for="name">Name:</label><br>
       <input type="text" id="name" name="name" required><br><br>
@@ -121,9 +130,10 @@
       <label for="message">Message:</label><br>
       <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
       
-      <div class="g-recaptcha" data-sitekey="6LdyFwIqAAAAAEjiTHsGYLT3T3J7yeZYAZq-HElv"></div>
-      <br />
-      <input type="submit" value="Submit">
+      <button class="g-recaptcha" data-sitekey="6LeocgEqAAAAAHEhWk0daTYeY5CJ9QZr4xbE-SCX" data-callback="onSubmit" data-action="submit">
+    Submit
+  </button>
+  
     </form>
     </div>
 </article>

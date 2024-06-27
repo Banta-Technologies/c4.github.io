@@ -6,6 +6,20 @@
   </head>
   <body>
 
+
+    <script>
+      function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+      } // Use `requestSubmit()` for extra features like browser input validation.
+   </script>
+
+
+<button class="g-recaptcha"
+data-sitekey="6LeocgEqAAAAAHEhWk0daTYeY5CJ9QZr4xbE-SCX"
+data-callback='onSubmit'
+data-action='submit'>Submit</button>
+
+
   </body>
 </html>
 

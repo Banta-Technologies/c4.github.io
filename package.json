@@ -1,5 +1,5 @@
 {
-  "name": "home-vicb-github-c4-github-io",
+  "name": "c4-github-io",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -11,5 +11,8 @@
   },
   "dependencies": {
     "astro": "^4.12.2"
+  },
+  "devDependencies": {
+    "@astrojs/node": "^4.12.2"
   }
 }

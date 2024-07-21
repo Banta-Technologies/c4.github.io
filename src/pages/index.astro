@@ -1,10 +1,12 @@
-```
-import Layout from './layouts/BaseLayout.astro';
+---
+import Layout from '/home/vicb/github/c4.github.io/src/layouts/BaseLayout.astro';
+---
+
 <Layout>
   <div class="left-column">
-    <div class="logo">
+    <div class=".logo">
       <!-- Add your logo image here -->
-      <img src="/your-logo.png" alt="Your Logo" />
+      <img src="/logo.jpg" alt="C4 Logo" />
     </div>
     <div class="links">
       <a href="/mission">Mission</a>
@@ -13,34 +15,7 @@ import Layout from './layouts/BaseLayout.astro';
     </div>
   </div>
   <div class="content">
-    <!-- Add your content here -->
+   <p class="content"> Community Commodity Computer Coaching </p>
   </div>
 </Layout>
 
-<style>
-  .left-column {
-    width: 15%;
-    background-color: brown;
-    padding: 20px;
-  }
-
-  .logo {
-    margin-bottom: 20px;
-  }
-
-  .links a {
-    display: block;
-    margin-bottom: 10px;
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .links a:hover {
-    color: #ccc;
-  }
-
-  .content {
-    margin-left: 15%;
-    padding: 20px;
-  }
-</style>

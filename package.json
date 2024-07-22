@@ -13,6 +13,6 @@
     "astro": "latest"
   },
   "devDependencies": {
-    "@astrojs/node": "^4.12.2"
+    "@astrojs/node": "latest"
   }
 }

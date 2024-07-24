@@ -1,21 +1,12 @@
----
-import Layout from '../layouts/BaseLayout.astro';
----
-
-<Layout>
-  <div class="left-column">
-    <div class=".logo">
-      <!-- Add your logo image here -->
-      <img src="logo.jpg" alt="C4 Logo" />
-    </div>
-    <div class="links">
-      <a href="/mission">Mission</a>
-      <a href="/about">About</a>
-      <a href="/participation">Our Participation</a>
-    </div>
+```astro
+import BaseLayout from '../layouts/BaseLayout.astro';
+import logo from '../assets/logo.jpg';
+import '../styles/style.css';
+<BaseLayout title="Home Page">
+  <div class="logo-container">
+    <img src={logo} alt="Logo" class="logo" />
   </div>
-  <div class="content">
-   <p class="content"> Community Commodity Computer Coaching </p>
-  </div>
-</Layout>
-
+  <h1>Welcome to my website!</h1>
+  <p>This is the home page.</p>
+</BaseLayout>
+```

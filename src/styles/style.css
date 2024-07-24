@@ -1,0 +1,43 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 10px;
+  }
+  
+  .header {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+  
+  .nav-bar {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .main-content {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  .footer {
+    grid-column: 1 / -1;
+    grid-row: 3;
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .logo {
+    width: 100px; /* initial width */
+    height: auto;
+    cursor: pointer; /* optional: make the logo clickable */
+    transition: width 0.3s; /* add a smooth transition effect */
+  }
+  
+  .logo:hover {
+    width: 150px; /* scale up the logo on hover */
+  }

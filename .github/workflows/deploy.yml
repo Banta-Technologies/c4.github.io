@@ -1,5 +1,5 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+# Deploy Astro site to GitHub Pages
+name: Deploy Astro site to GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -33,13 +33,14 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Install, build, and upload your site
-        uses: withastro/action@v2
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          name: github-pages-deploy-action
+          artifact_name: github-pages-artifact

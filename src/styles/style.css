@@ -39,7 +39,7 @@
   }
   
   .logo {
-    width: 100px; /* initial width */
+    width: 200px; /* initial width */
     height: auto;
     cursor: pointer; /* optional: make the logo clickable */
     transition: width 0.3s; /* add a smooth transition effect */
@@ -48,3 +48,13 @@
   .logo:hover {
     width: 150px; /* scale up the logo on hover */
   }
+
+  .header-container {
+    position: absolute;
+    top: 10px;
+    left: 235px; 
+    width: 100%;
+    height: 200px;
+    background-color: #352a41;
+    
+   }

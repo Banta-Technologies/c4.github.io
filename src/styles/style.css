@@ -54,7 +54,7 @@
     position: absolute;
     top: 10px;
     left: 235px; 
-    width: 100%;
+    width: 95%;
     height: 200px;
     background-color: #352a41;
     
@@ -65,4 +65,25 @@
     top: 300px;
     left: 50px;
     transform: translateX(-50%);
+  }
+
+  
+  .footer p {
+    margin: 0; /* remove the default margin */
+  }
+  
+  .footer-container {
+    max-width: 90%; /* set a maximum width for the container */
+    margin: 0 auto; /* center the container horizontally */
+    background-color: #333; /* dark gray background */
+    color: #fff; /* white text color */
+    padding: 20px; /* add some padding for spacing */
+    text-align: center; /* center the text horizontally */
+    width: 90%; /* make the footer full width */
+    position: fixed; /* fix the footer to the bottom of the screen */
+    bottom: 0; /* position it at the bottom */
+    left: 235px; /* position it at the left */
+    z-index: 100; /* make sure it's on top of other elements */
+
+
   }

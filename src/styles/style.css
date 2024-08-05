@@ -68,22 +68,33 @@
   }
 
   
-  .footer p {
-    margin: 0; /* remove the default margin */
+  .footer-container {
+    text-align: center;
+    position: absolute;
+    top: 800px;
+    left: 235px; 
+    width: 95%;
+    height: 100px;
+    background-color: #352a41;
   }
   
-  .footer-container {
-    max-width: 90%; /* set a maximum width for the container */
-    margin: 0 auto; /* center the container horizontally */
-    background-color: #333; /* dark gray background */
-    color: #fff; /* white text color */
-    padding: 20px; /* add some padding for spacing */
-    text-align: center; /* center the text horizontally */
-    width: 90%; /* make the footer full width */
-    position: fixed; /* fix the footer to the bottom of the screen */
-    bottom: 0; /* position it at the bottom */
-    left: 235px; /* position it at the left */
-    z-index: 100; /* make sure it's on top of other elements */
+  .footer-title {
+    font-size: 1.5em; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Space between title and links */
+  }
 
+  .link-row {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing);
+    color: white;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: white; /* Inherit color from parent */
+  }
 
+  .footer-link:hover {
+    text-decoration: underline; /* Optional: underline links on hover */
   }

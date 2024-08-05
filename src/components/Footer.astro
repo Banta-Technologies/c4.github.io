@@ -1,13 +1,23 @@
+---
+const links = [
+  { text: "Home", url: "/" },
+  { text: "About", url: "/about" },
+  { text: "Services", url: "/services" },
+  { text: "Contact", url: "/contact" }
+];
+const spacing = "35px"; // Adjust this value to change the space between links
+---
 
 <footer class="footer">
   <div class="footer-container">
-    <p>Community Commodity Computer Coaching</p>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/events">Events</a></li>
-      <li><a href="/services">Services</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
+    <p class="footer-link">
+      Community Commodity Computer Coaching
+    </p>
+  
+  <div class="footer-link" style={`--spacing: ${spacing};`}>
+    {links.map(link => (
+      <a href={link.url}>{link.text}</a>
+    ))}
   </div>
+</div>
 </footer>

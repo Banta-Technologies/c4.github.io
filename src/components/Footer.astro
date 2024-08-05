@@ -16,7 +16,7 @@ const spacing = "35px"; // Adjust this value to change the space between links
   
   <div class="link-row" style={`--spacing: ${spacing};`}>
     {links.map(link => (
-      <a href={link.url}>{link.text}</a>
+      <a href={link.url} class="footer-link">{link.text}</a>
     ))}
   </div>
 </div>

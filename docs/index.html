@@ -1,104 +1,175 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-    <title>"C4"</title>
-    <style>
-        .grid-container {
-            display: grid;
-            grid-template-columns: 2px 1fr;
-            grid-template-rows: auto 1fr auto;
-            grid-gap: 10px;
-        }
-        .header {
-            grid-column: 1 / -1;
-            grid-row: 1;
-        }
-        .nav-bar {
-            grid-column: 1;
-            grid-row: 2;
-        }
-        .main-content {
-            grid-column: 2;
-            grid-row: 2;
-        }
-        .footer {
-            grid-column: 1 / -1;
-            grid-row: 3;
-        }
-        .navbar {
-            position: sticky;
-            top: 100;
-            background-color: #786f81;
-            padding: 125px;
-        }
-        .logo-container {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-        }
-        .logo {
-            width: 200px;
-            height: auto;
-            cursor: pointer;
-            transition: width .3s;
-        }
-        .logo:hover {
-            width: 150px;
-        }
-        .header-container {
-            position: absolute;
-            top: 10px;
-            left: 235px;
-            width: 100%;
-            height: 200px;
-            background-color: #352a41;
-        }
-        .footer-container {
-            text-align: center;
-            padding: 20px;
-            background-color: #352a41;
-            color: white;
-        }
-        .footer-container a {
-            color: #f2a365;
-            text-decoration: none;
-        }
-        .footer-container a:hover {
-            text-decoration: underline;
-        }
-    </style>
+
+<title>C4</title>
+
+<style>
+
+    /* Define your grid layout here */
+
+   .grid-container {
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr 1fr;
+
+        grid-template-rows: auto 1fr auto;
+
+        grid-gap: 10px;
+
+        background-color: #ffffff;
+
+        padding: 25px;
+
+    }
+
+
+
+    /* Header styling */
+
+   .header {
+
+        grid-column: 1 / -1;
+
+        grid-row: 1;
+
+    }
+
+
+
+    /* Navigation bar styling */
+
+   .navbar {
+
+        grid-column: 1;
+
+        grid-row: 2;
+
+        background-color: #786f81;
+
+        padding: 125px;
+
+        position: sticky;
+
+        top: 100px;
+
+    }
+
+
+
+    /* Logo styling */
+
+   .logo {
+
+        width: 200px;
+
+        height: auto;
+
+        cursor: pointer;
+
+        transition: width.3s;
+
+    }
+
+
+
+   .logo:hover {
+
+        width: 150px;
+
+    }
+
+
+
+    /* Main content styling */
+
+   .main-content {
+
+        grid-column: 2;
+
+        grid-row: 2;
+
+    }
+
+
+
+    /* Footer styling */
+
+   .footer {
+
+        grid-column: 1 / -1;
+
+        grid-row: 3;
+
+        text-align: center;
+
+        padding: 20px;
+
+        background-color: #352a41;
+
+        color: white;
+
+    }
+
+
+
+    /* Styling for footer links */
+
+   .footer a {
+
+        color: #f2a365;
+
+        text-decoration: none;
+
+    }
+
+
+
+    /* Styling for footer link hover */
+
+   .footer a:hover {
+
+        text-decoration: underline;
+
+    }
+
+</style>
+
 </head>
+
 <body>
-    <div class="grid-container">
-        <div class="header">
-            <header class="header">
-                <div class="header-container">
-                    <div class="header-row">
-                        <ul class="header-links"></ul>
-                    </div>
-                </div>
-            </header>
-        </div>
-        <div class="navbar">
-            <nav class="nav-bar">
-                <div class="container">
-                    <div class="logo-container">
-                        <img src="logo.jpg" alt="logo" class="logo">
-                    </div>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/services">Services</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                        <li><a href="/rental">Rental</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="main-content">
-        </div>
-            </footer>
-        </div>
+
+<div class="grid-container">
+
+    <header class="header">
+
+        <!-- Your header content goes here -->
+
+    </header>
+
+    <nav class="navbar">
+
+        <!-- Your navigation bar content goes here -->
+
+    </nav>
+
+    <div class="main-content">
+
+        <!-- Your main content goes here -->
+
     </div>
+
+    <footer class="footer">
+
+        <!-- Your footer content goes here -->
+
+    </footer>
+
+</div>
+Copy
 </body>
+
 </html>

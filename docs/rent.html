@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>"C4"</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 2px 1fr;
+            grid-template-rows: auto 1fr auto;
+            grid-gap: 10px;
+        }
+        .header {
+            grid-column: 1 / -1;
+            grid-row: 1;
+        }
+        .nav-bar {
+            grid-column: 1;
+            grid-row: 2;
+        }
+        .main-content {
+            grid-column: 2;
+            grid-row: 2;
+        }
+        .footer {
+            grid-column: 1 / -1;
+            grid-row: 3;
+        }
+        .navbar {
+            position: sticky;
+            top: 100;
+            background-color: #786f81;
+            padding: 125px;
+        }
+        .logo-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .logo {
+            width: 200px;
+            height: auto;
+            cursor: pointer;
+            transition: width .3s;
+        }
+        .logo:hover {
+            width: 150px;
+        }
+        .header-container {
+            position: absolute;
+            top: 10px;
+            left: 235px;
+            width: 100%;
+            height: 200px;
+            background-color: #352a41;
+        }
+        .main-content ol {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">
+            <header class="header">
+                <div class="header-container">
+                    <div class="header-row">
+                        <ul class="header-links"></ul>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="navbar">
+            <nav class="nav-bar">
+                <div class="container">
+                    <div class="logo-container">
+                        <img src="logo.jpg" alt="logo" class="logo">
+                    </div>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/services">Services</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="main-content">
+            <ol>
+                <li>Cost-effectiveness: Renting is generally more cost-effective for short-term needs, especially if the event is not frequent. The upfront cost of purchasing Chromebooks can be high, whereas renting allows nonprofits to only pay for the time they need the devices.</li>
+                <li>Flexibility: Renting provides flexibility in terms of the number of devices needed. Nonprofits can rent the exact number of Chromebooks required for the event, without having to invest in a large number of devices that may not be used frequently.</li>
+                <li>Maintenance and Support: When renting, the responsibility for maintenance and support typically falls on the rental company. This can be beneficial for nonprofits that may not have the resources or expertise to manage and troubleshoot a fleet of Chromebooks.</li>
+                <li>Up-to-date Technology: Rental companies often provide the latest models of Chromebooks, ensuring that nonprofits have access to the most up-to-date technology for their events.</li>
+                <li>No Storage and Security Concerns: Renting eliminates the need for nonprofits to store and secure the Chromebooks when not in use, which can be a concern for organizations with limited space or security measures.</li>
+                <li>Easier Budgeting: Renting can be easier to budget for, as the costs are predictable and usually spread out over time, rather than requiring a large upfront investment.</li>
+                <li>Access to Additional Services: Some rental companies offer additional services such as setup, configuration, and on-site support, which can be beneficial for nonprofits during events.</li>
+                <li>Scalability: Renting allows nonprofits to scale up or down the number of devices they need based on the size and requirements of each event.</li>
+                <li>Environmental Considerations: Renting can also be seen as a more environmentally friendly option, as it reduces the need for the production of new devices and the disposal of old ones.</li>
+                <li>Avoiding Obsolescence: Technology, including Chromebooks, can become outdated quickly. Renting can help nonprofits avoid the issue of owning obsolete technology, as they can rent newer models as needed.</li>
+            </ol>
+            <p>In summary, renting Chromebooks can provide a more cost-effective, flexible, and hassle-free solution for nonprofits that need devices for infrequent events.</p>
+        </div>
+        <div class="footer">
+            <footer class="footer">
+                <div class="footer-container">
+                    <p>Community Commodity Computer Coaching</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
